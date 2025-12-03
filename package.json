@@ -1,0 +1,28 @@
+{
+  "name": "appleblox-docs",
+  "version": "1.0.0",
+  "description": "Official documentation for AppleBlox - Lightweight and fast Roblox launcher for macOS",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vitepress": "^1.6.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "keywords": [
+    "appleblox",
+    "roblox",
+    "macos",
+    "launcher",
+    "documentation"
+  ],
+  "author": "AppleBlox Contributors",
+  "license": "GPL-3.0"
+}
