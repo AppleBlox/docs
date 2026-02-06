@@ -13,7 +13,9 @@
       "Bash(curl:*)",
       "Bash(git clone:*)",
       "Bash(grep:*)",
-      "Bash(find /Users/marlon/Javascript/AppleBlox/docs/public/images -name \"*.png\" -exec sh -c 'echo \"\"$\\(sips -g pixelWidth -g pixelHeight \"\"$1\"\" 2>/dev/null | grep -E \"\"pixel\\(Width|Height\\)\"\" | awk \"\"{print \\\\$2}\"\" | tr \"\"\\\\n\"\" \"\"x\"\" | sed \"\"s/x$//\"\"\\) $1\"\"' _ {} ;)"
+      "Bash(find /Users/marlon/Javascript/AppleBlox/docs/public/images -name \"*.png\" -exec sh -c 'echo \"\"$\\(sips -g pixelWidth -g pixelHeight \"\"$1\"\" 2>/dev/null | grep -E \"\"pixel\\(Width|Height\\)\"\" | awk \"\"{print \\\\$2}\"\" | tr \"\"\\\\n\"\" \"\"x\"\" | sed \"\"s/x$//\"\"\\) $1\"\"' _ {} ;)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []
