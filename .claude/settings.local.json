@@ -5,7 +5,13 @@
       "Bash(bun init:*)",
       "Bash(bun add:*)",
       "Bash(bun run:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:appleblox.com)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(curl:*)",
+      "Bash(git clone:*)"
     ],
     "deny": [],
     "ask": []

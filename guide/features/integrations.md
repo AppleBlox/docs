@@ -1,41 +1,37 @@
 # Integrations
 
-Connect AppleBlox with external services and enhance your gaming experience.
+The Integrations panel manages how AppleBlox connects with external services like Discord.
 
 ## Discord Rich Presence
 
-Show your Roblox activity on your Discord profile!
+Discord Rich Presence displays your Roblox activity on your Discord profile in real-time. Your friends can see what game you're playing and, with the join button enabled, can join your game directly.
 
-### Settings
+Make sure Discord is running before you launch Roblox through AppleBlox. The integration updates automatically without manual configuration.
 
-**Enable Rich Presence** (default: ON)
-- Displays that you're playing Roblox on Discord
-- Shows real-time updates of your activity
+### Customizing Your Presence
 
-**Game Activity** (default: ON)
-- Shows the name of the game you're currently playing
-- Example: "Playing Adopt Me!"
+Control what information appears on your Discord profile:
 
-**Play Time** (default: ON)
-- Displays how long you've been playing
-- Updates in real-time
+**Rich Presence** displays that you're playing Roblox.
 
-**Join Button** (default: OFF)
-- Adds a "Join Game" button to your Discord presence
-- Allows friends to join your current game directly
-- Only works for public servers
+**Game Activity** shows the specific game you're playing (for example, "Playing Adopt Me!").
 
-::: tip Privacy
-The join button respects your Roblox privacy settings. If you're in a private server, friends won't be able to join.
+**Play Time** adds a timer showing how long you've been playing.
+
+**Join Button** lets friends join your current game directly. This only works for public servers. AppleBlox respects your Roblox privacy settings, so friends can't join private servers even with this enabled.
+
+::: tip Privacy Settings
+Your Roblox privacy settings are respected. Friends can't use the join button to enter private servers or if your join settings are restricted.
 :::
 
-### How to Use
+### Setup
 
-1. Ensure Discord is running on your Mac
-2. Enable Rich Presence in Integrations panel
+1. Launch Discord
+2. Open AppleBlox and enable Rich Presence in the Integrations panel
 3. Launch Roblox through AppleBlox
-4. Join any game
-5. Your Discord status updates automatically!
+4. Join a game
+
+Your Discord status will update automatically.
 
 ### Troubleshooting
 

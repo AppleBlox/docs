@@ -1,35 +1,34 @@
 # Command Line Options
 
-Advanced command-line options for AppleBlox.
+## Launching AppleBlox
 
-## Data Directory Override
-
-### Via CLI Argument
+The main executable is located at:
 
 ```bash
-/Applications/AppleBlox.app/Contents/MacOS/AppleBlox --data-dir=/custom/path
+/Applications/AppleBlox.app/Contents/MacOS/bootstrap
 ```
+
+## Testing Only: Data Directory Override
+
+::: warning For Developers/Testing Only
+These options are for testing and development. Regular users don't need to use them.
+:::
+
+For automated tests and development, you can override the data directory:
 
 ### Via Environment Variable
 
 ```bash
-export APPLEBLOX_DATA_DIR="/custom/path"
-/Applications/AppleBlox.app/Contents/MacOS/AppleBlox
+export APPLEBLOX_DATA_DIR="/path/to/test/data"
 ```
 
-### Use Cases
+### Via CLI Argument
 
-- Portable installations
-- Testing without affecting main config
-- Multiple isolated environments
-- Network/shared storage
+```bash
+--data-dir=/path/to/test/data
+```
 
-### Directory Structure
-
-The custom directory will contain the same structure as the default data directory:
-- Independent mods, config, cache
-- Separate logs
-- Isolated from main installation
+This isolates test data from your main AppleBlox installation. The custom directory will contain the same structure (mods, config, cache, logs) but completely separate from your normal data.
 
 ## Development Mode
 

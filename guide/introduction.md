@@ -1,33 +1,26 @@
 # Introduction
 
-AppleBlox is a feature-rich, native macOS launcher for Roblox that enhances your gaming experience with powerful customization options, performance tweaks, and quality-of-life improvements.
+AppleBlox is a native macOS launcher for Roblox with advanced customization options, performance controls, and quality-of-life improvements.
 
-## Key Features
+## Features
 
-✨ **Custom Mods** - Install texture packs and UI modifications
+Mac users have had limited options for enhancing their Roblox experience compared to Windows users with tools like Bloxstrap. AppleBlox brings similar functionality to macOS.
 
-🎨 **Icon Customization** - Change your app icon with built-in library or custom .icns files
+**Custom Mods** replace Roblox's textures, UI elements, and sounds. Install texture packs, modify interfaces, or change sound effects. The mod system supports both minimalist changes and complete visual overhauls.
 
-🎮 **Discord Rich Presence** - Show your Roblox activity on Discord
+**Discord Rich Presence** shows your Roblox activity on Discord. Your friends can see what game you're playing and how long you've been online. Enable the join button to let friends connect to your game directly through Discord.
 
-⚡ **Multi-Instance** - Run multiple Roblox instances simultaneously
+**Multi-Instance Support** lets you run multiple Roblox windows at once. This is useful for managing multiple accounts, testing games during development, or trading between your own accounts.
 
-🔧 **FastFlags Editor** - Advanced performance and graphics configuration
+**FastFlags Editor** provides access to Roblox's internal configuration system. You can unlock FPS limits, adjust graphics rendering settings, and modify network behavior using the same flags that Roblox developers use.
 
-🎭 **Custom Themes** - Personalize the UI with custom CSS
+**Icon Customization** changes the AppleBlox app icon. Choose from the built-in library or upload your own .icns files.
 
-📊 **Performance Options** - Graphics API selection, FPS unlock, quality control
+**Custom Themes** modify AppleBlox's interface using CSS. Adjust colors, layouts, and styling to match your preferences.
 
-## Why AppleBlox?
+## Use Cases
 
-AppleBlox brings Windows Roblox launcher features to macOS, filling the gap for Mac users who want more control over their Roblox experience. Whether you're looking to:
-
-- **Customize** your Roblox appearance with mods
-- **Optimize** performance with FastFlags
-- **Multitask** with multiple instances
-- **Show off** your gaming activity on Discord
-
-AppleBlox has you covered!
+AppleBlox works well for players who want to customize Roblox's appearance, developers who need to test with multiple instances, or anyone looking for more control over Roblox on Mac.
 
 ## Quick Links
 

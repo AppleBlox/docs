@@ -1,30 +1,24 @@
 # Mods Introduction
 
-Comprehensive guide to installing, managing, and creating custom Roblox modifications.
+AppleBlox's mod system lets you customize Roblox's appearance by replacing textures, sounds, and UI elements.
 
-## What are Mods?
+## What Are Mods
 
-Mods (modifications) are custom files that replace Roblox's original textures, sounds, and UI elements. They allow you to:
+Mods (modifications) are custom files that replace Roblox's original assets. You can install darker UI themes, high-definition texture packs, custom sound effects, or complete visual overhauls. All changes are reversible - disable a mod to restore the original files.
 
-- **Customize Visuals** - Change textures, icons, UI elements
-- **Modify Sounds** - Replace audio files with custom sounds
-- **Enhance UI** - Redesign menus, buttons, and interfaces
-- **Theme Games** - Apply texture packs to specific games
+The mod system is flexible. Install texture packs to change visuals, UI mods to redesign interfaces, sound packs to replace audio, or themed collections for specific games. Each mod can be enabled or disabled independently.
 
-### Key Points
+### Safety and Compatibility
 
-- ✅ Completely reversible - original files are backed up
-- ✅ Easy to enable/disable individual mods
-- ✅ No game files are modified - only local Roblox app
-- ✅ Compatible with Bloxstrap mods
-- ⚠️ Some mods may affect game performance
-- ⚠️ Use trusted sources only
+Mods only modify your local Roblox installation. They don't affect game files on Roblox's servers, don't provide gameplay advantages, and don't interfere with anti-cheat systems. Changes are purely cosmetic and only visible to you.
+
+AppleBlox automatically backs up original Roblox files before applying mods. You can restore them with one click if needed. Each mod can be toggled on or off individually for easy troubleshooting.
+
+AppleBlox is compatible with Bloxstrap mods from Windows, giving you access to the existing mod library. Note that some high-resolution texture packs may impact performance. Download mods only from trusted sources like GameBanana.
 
 ## How Mods Work
 
-### File Structure Mirroring
-
-Mods use a directory structure that mirrors Roblox's internal organization:
+Mods use a directory structure that mirrors Roblox's internal file organization:
 
 **Roblox Resources:**
 ```

@@ -44,17 +44,17 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-brand-1: #3b82f6;
-  --vp-c-brand-2: #2563eb;
-  --vp-c-brand-3: #1d4ed8;
-  --vp-c-brand-soft: rgba(59, 130, 246, 0.14);
+  --vp-c-brand-1: #f43f5e;
+  --vp-c-brand-2: #e11d48;
+  --vp-c-brand-3: #be123c;
+  --vp-c-brand-soft: rgba(244, 63, 94, 0.14);
 }
 
 .dark {
-  --vp-c-brand-1: #60a5fa;
-  --vp-c-brand-2: #3b82f6;
-  --vp-c-brand-3: #2563eb;
-  --vp-c-brand-soft: rgba(96, 165, 250, 0.16);
+  --vp-c-brand-1: #fb7185;
+  --vp-c-brand-2: #f43f5e;
+  --vp-c-brand-3: #e11d48;
+  --vp-c-brand-soft: rgba(251, 113, 133, 0.16);
 }
 
 /**
@@ -81,14 +81,14 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #3b82f6 30%,
-    #8b5cf6
+    #f43f5e 30%,
+    #ec4899
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #3b82f6 50%,
-    #8b5cf6 50%
+    #f43f5e 50%,
+    #ec4899 50%
   );
   --vp-home-hero-image-filter: blur(44px);
 }
@@ -249,4 +249,61 @@ h4:hover .header-anchor {
   .VPFeature {
     padding: 20px;
   }
+}
+
+/* AppleBlox brand enhancements */
+.vp-doc a code {
+  color: var(--vp-c-brand-1);
+}
+
+/* Feature icons with AppleBlox colors */
+.VPFeature .icon {
+  color: var(--vp-c-brand-1);
+}
+
+/* Enhanced hero image */
+.VPImage.image-src {
+  max-width: 400px;
+}
+
+/* Smooth transitions for interactive elements */
+.vp-doc button,
+.vp-doc a,
+.VPFeature {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* AppleBlox brand shadow effect */
+.VPFeature:hover {
+  box-shadow: 0 12px 24px rgba(244, 63, 94, 0.15);
+}
+
+.dark .VPFeature:hover {
+  box-shadow: 0 12px 24px rgba(244, 63, 94, 0.25);
+}
+
+/* Code block enhancements with brand accent */
+div[class*='language-']:hover {
+  border-color: var(--vp-c-brand-soft);
+}
+
+/* Scrollbar styling (WebKit browsers) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--vp-c-bg-soft);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--vp-c-brand-soft);
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-brand-1);
 }
