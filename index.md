@@ -13,6 +13,7 @@ Requires macOS 10.13 (High Sierra) or later. Available for Apple Silicon, Intel,
 ## Sections
 
 - **[Getting Started](/guide/getting-started)** - Installation, onboarding, and navigating the app
+- **[Homebrew](/guide/homebrew)** - Install and manage AppleBlox using Homebrew
 - **[Quickplay](/guide/quickplay)** - Your home screen for launching games
 - **[Account & Region](/guide/account)** - Connect your Roblox account and select server regions
 - **[Launching Roblox](/guide/launching)** - How AppleBlox launches and manages Roblox
