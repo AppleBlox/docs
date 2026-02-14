@@ -4,13 +4,14 @@ Managing AppleBlox through Homebrew is the most efficient way to handle installa
 
 ## Prerequisites
 
-Before starting, ensure you have Homebrew installed. If you don't, follow the instructions on [brew.sh](https://brew.sh/) to install Homebrew.
+Before starting, ensure you have Homebrew installed. If you do not have Homebrew installed, follow the instructions on [brew.sh](https://brew.sh/) to install Homebrew.
+If you already have Homebrew installed, skip to the next section.
 
 ## Note
 
 **If you already have a manual installation of AppleBlox** (e.g., you dragged it into your Applications folder previously), it is recommended to move that old version to the Trash before running the install commands below.
 
-* Note: Moving the app to the Trash does **not** delete your user data, saves, or settings. Those are stored separately and will be picked up by the Homebrew version automatically.*
+- Note: Moving the app to the Trash does **not** delete your user data, saves, or settings. Those are stored separately and will be picked up by the Homebrew version automatically.
 
 ### **1. Setup the Repository**
 
@@ -65,13 +66,11 @@ Removes the app but **keeps** your settings and data (including mods and flags) 
 brew uninstall appleblox
 ```
 
-* **Clean Uninstall (Deletes Everything)**
-Removes the app **and** wipes all associated settings, caches, and local data.
+- **Clean Uninstall (Deletes Everything)**
+  Removes the app **and** wipes all associated settings, caches, and local data.
 
 ```bash
 brew uninstall --zap appleblox
 ```
 
-* Replace `appleblox` with `appleblox@dev` depending on your installation
-
-Any questions? Ping @bakathesussy
+- Replace `appleblox` with `appleblox@dev` depending on your installation.

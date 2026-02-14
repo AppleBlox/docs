@@ -17,6 +17,10 @@ Requires macOS 10.13 (High Sierra) or later. Available for Apple Silicon, Intel,
 2. Open the DMG and drag AppleBlox into your Applications folder.
 3. Launch AppleBlox. On first launch, macOS may block the app. See [I can't open the app](/guide/faq#i-can-t-open-the-app) in the FAQ for solutions.
 
+**If you prefer**, you can use [Homebrew](/guide/homebrew) to install and manage AppleBlox:
+
+<img src="/images/homebrew/example-dev-install.png" alt="AppleBlox installation in Homebrew on macOS 26" width="440">
+
 If Roblox isn't installed yet, AppleBlox can download and install it for you. Click the **Install** button at the bottom of the sidebar when prompted.
 
 <img src="/images/getting-started/install-button.png" alt="AppleBlox install prompt for Roblox" width="440">
@@ -43,17 +47,17 @@ The sidebar is your main navigation. It stays on the left side of the window at 
 
 **Pages:**
 
-| Page | Description |
-|------|-------------|
-| **Quickplay** | Recent games dashboard |
-| **Account** | Roblox login and region settings |
-| **Integrations** | Discord RPC, game history, Bloxstrap SDK |
-| **Behavior** | Launch settings, Roblox path, multi-instance |
-| **Engine** | Graphics and FastFlags |
-| **Mods** | Mod manager and built-in mods |
-| **Appearance** | Theme and app icon |
-| **Misc** | Logs, export, reset |
-| **Info** | Credits and acknowledgments |
+| Page             | Description                                  |
+| ---------------- | -------------------------------------------- |
+| **Quickplay**    | Recent games dashboard                       |
+| **Account**      | Roblox login and region settings             |
+| **Integrations** | Discord RPC, game history, Bloxstrap SDK     |
+| **Behavior**     | Launch settings, Roblox path, multi-instance |
+| **Engine**       | Graphics and FastFlags                       |
+| **Mods**         | Mod manager and built-in mods                |
+| **Appearance**   | Theme and app icon                           |
+| **Misc**         | Logs, export, reset                          |
+| **Info**         | Credits and acknowledgments                  |
 
 At the bottom of the sidebar:
 
