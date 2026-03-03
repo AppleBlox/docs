@@ -12,10 +12,11 @@ For Windows, check out [Bloxstrap](https://github.com/pizzaboxer/bloxstrap), the
 
 AppleBlox requires macOS 10.13 (High Sierra), although macOS 13+ is recommended. If you're using a version older than macOS 11, you can access AppleBlox through your web browser using the dedicated button to avoid a critical bug affecting the desktop app.
 
-### What is arm64 and x64?
+### What is arm64, x64, and Universal?
 
 - **arm64** is for Apple Silicon chips (M1, M2, M3, M4, etc.). These are the "M" series chips.
 - **x64** is for older Intel-based Macs. These are the devices that don't use the "M" series chips.
+- **Universal** contains both the x64 and arm64 binaries. It is recommended to always use the specific binary per version.
 
 To find out which you have, click the Apple logo at the top left of your screen and choose "About This Mac."
 
