@@ -7,7 +7,7 @@ layout: doc
 AppleBlox is a macOS-exclusive Roblox launcher that enhances your experience with features like Discord Rich Presence, server region selection, mod support, multi-instance launching, and more.
 
 ::: info System Requirements
-Requires macOS 10.13 (High Sierra) or later. Available for Apple Silicon, Intel, and Universal architectures.
+Requires macOS 10.13 (High Sierra) or later. Available for Apple Silicon (arm64) and Intel (x64) architectures. Universal 2 Binaries also available.
 :::
 
 ## Sections
