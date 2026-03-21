@@ -1,4 +1,12 @@
----
+
+"DFFlagDisableDPIScale": "True",
+"DFFlagTextureQualityOverrideEnabled": "True",
+"DFIntTextureQualityOverride": "0",
+"FFlagDebugGraphicsPreferD3D11": "True",
+"FFlagDebugGraphicsPreferOpenGL": "True",
+"FFlagDebugGraphicsPreferVulkan": "True",
+"FFlagDebugSkyGray": "True"
+}-
 layout: doc
 ---
 
