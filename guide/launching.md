@@ -28,6 +28,14 @@ You must enable delegate launching to join games, private server links, or any R
 If another app (like Roblox itself) re-registered as the URL handler, toggling the setting off and on again will re-register AppleBlox.
 :::
 
+## Create Launch Shortcut
+
+Found under **Behavior > Create Launch Shortcut**.
+
+Creates a `.app` shortcut on your Desktop that launches Roblox through AppleBlox. Clicking it applies all your settings — mods, FastFlags, Discord RPC, and region selection — the same as launching from within AppleBlox.
+
+Useful if you prefer launching from the Desktop or Dock without keeping AppleBlox open.
+
 ## Background Updates
 
 Found under **Behavior > Background updates**.

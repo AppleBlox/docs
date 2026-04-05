@@ -46,6 +46,7 @@ export default defineConfig({
           { text: "Appearance", link: "/guide/appearance" },
           { text: "Misc & System", link: "/guide/misc" },
           { text: "FAQ", link: "/guide/faq" },
+          { text: "Changelog", link: "/guide/changelog" },
         ],
       },
       {
